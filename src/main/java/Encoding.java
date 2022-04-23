@@ -33,4 +33,5 @@ public class Encoding {
         return mKey >1 && mKey < 26;
 
     }
+
 }

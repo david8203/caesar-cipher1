@@ -37,5 +37,10 @@ public class EncodingTest {
     {
         assertEquals(true, testEncoding.isValidKey());
     }
+    @Test
+    public void validEncoding()
+    {
+        assertEquals("FCXKF PFWPIW" , testEncoding.encode());
+    }
 
 }
