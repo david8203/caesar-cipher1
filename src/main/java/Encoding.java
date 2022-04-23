@@ -24,4 +24,13 @@ public class Encoding {
         }
         return true;
     }
+    public boolean isNotEmpty()
+    {
+        return !mInputText.trim().isEmpty();
+    }
+    public boolean isValidKey()
+    {
+        return mKey >1 && mKey < 26;
+
+    }
 }
