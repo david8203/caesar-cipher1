@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class App {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println(" What do you want to do here?\n 1. Encode \n 2. Decode  \n 3. Quit");
+        System.out.println(" What do you want to do here use either 1,2 or 3 as your input?\n 1. Encode \n 2. Decode  \n 3. Quit");
         int choice = scanner.nextInt();
         scanner.nextLine();
         if (choice == 1) {
