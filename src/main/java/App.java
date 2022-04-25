@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import java.util.Scanner;
 
 public class App {
@@ -7,36 +6,26 @@ public class App {
         System.out.println(" What do you want to do here?\n 1. Encode \n 2. Decode  \n 3. Quit");
         int choice = scanner.nextInt();
         scanner.nextLine();
-        if(choice == 1)
-        {
+        if (choice == 1) {
             System.out.println("Enter a text ");
             String inputText = scanner.nextLine().toUpperCase();
             System.out.println("Enter a key");
             int key = scanner.nextInt();
-            Encoding encoding = new Encoding(inputText,key);
-            System.out.println(String.format("Your encrypted text is :  %s",encoding.encode()));
+            Encoding encoding = new Encoding(inputText, key);
+            System.out.println(String.format("Your encrypted text is :  %s", encoding.encode()));
 
-        }
-        else if(choice == 2)
-        {
+        } else if (choice == 2) {
             System.out.println("Enter an encrypted text to decrypt");
             String inputText = scanner.nextLine().toUpperCase();
             System.out.println("Enter a key ");
             int key = scanner.nextInt();
             Decoding decoding = new Decoding(key, inputText);
-            System.out.println(String.format("Your decrypted text is:  %s",decoding.decode()));
-        }
-        else if(choice == 3)
-        {
+            System.out.println(String.format("Your decrypted text is:  %s", decoding.decode()));
+        } else if (choice == 3) {
             System.exit(0);
-        }
-        else
-        {
+        } else {
             System.out.println("Input not known");
         }
     }
 
-=======
-public class App {
->>>>>>> b0d9572e01c047be7d103268cbae70c1b072e14d
 }

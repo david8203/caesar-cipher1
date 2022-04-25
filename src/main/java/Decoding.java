@@ -1,5 +1,5 @@
 public class Decoding {
-<<<<<<< HEAD
+
     private int mKey;
     private String mInputText;
 
@@ -60,6 +60,4 @@ public class Decoding {
         }
         return decodedValue;
     }
-=======
->>>>>>> b0d9572e01c047be7d103268cbae70c1b072e14d
 }
