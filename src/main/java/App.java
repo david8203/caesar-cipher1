@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import java.util.Scanner;
 
 public class App {
@@ -35,4 +36,7 @@ public class App {
         }
     }
 
+=======
+public class App {
+>>>>>>> b0d9572e01c047be7d103268cbae70c1b072e14d
 }

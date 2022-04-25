@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -31,5 +32,10 @@ class DecodingTest {
     {
         assertEquals("DAVID NDUNGU" , testDecoding.decode());
     }
+=======
+import static org.junit.jupiter.api.Assertions.*;
+
+class DecodingTest {
+>>>>>>> b0d9572e01c047be7d103268cbae70c1b072e14d
 
 }
